@@ -1,0 +1,25 @@
+/主目录/
+index.php             ----  首页
+register.php          ----  注册页面
+login.html            ----  登录页面
+forums.php            ----  论坛列表页面
+forums_detail.php     ----  论坛详情页面
+addnew.php            ----  发布帖子页面
+add_forums.php        ----  添加论坛页面
+reply.php             ----  回复帖子页面
+choose_head.php       ----  选择头像页面
+thread.php            ----  帖子详情页面
+
+
+/php目录/
+login.php             ----  登录验证php
+register_func.php     ----  注册验证php
+save_forums.php       ----  将add_forums.php数据存储
+addnew_post.php       ----  将addnew.php数据存储
+
+/compoent组件目录/
+common_inc.php        ----  公共代码
+global_func.php       ----  全局函数库
+header_inc.php        ----  公共头部
+register_func.php     ----  注册函数库
+title_inc.php         ----  公共文件引入

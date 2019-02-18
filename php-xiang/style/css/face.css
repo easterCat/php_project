@@ -1,0 +1,31 @@
+.face {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 500px;
+	height: 400px;
+	margin-left: -250px;
+	margin-top: -200px;
+	background-color: #ededed;
+	overflow: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	z-index: 99999999;
+}
+
+.face-title {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px solid #9DC6FF;
+	text-align: center;
+}
+
+.face-img {
+	width: 76px;
+	height: 96px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 6px;
+}

@@ -1,0 +1,137 @@
+.dothing_con {
+	background-color: #fff;
+	padding: 30px 0px;
+}
+
+.project_con {
+	padding: 30px 0px;
+}
+
+.text-center {
+	height: 54px;
+}
+
+.my_btn2 {
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	background-color: #181A29 !important;
+	border-radius: 0px;
+	color: #fff !important;
+	font-size: 30px;
+	line-height: 60px;
+	margin-right: 3px;
+}
+
+.media {
+	margin-bottom: 10px;
+}
+
+
+/*.my_btn:hover {
+    color: #666 !important;
+    background-color: #4FE2B4 !important;
+}
+*/
+
+.title_p {
+	font-size: 18px;
+}
+
+.caption {
+	text-align: center;
+}
+
+.title_p em {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.ours_con {
+	margin-top: 30px;
+}
+
+.nav_title {
+	height: 25px;
+	color: #fff;
+	text-align: left;
+	padding-left: 20px;
+	background-color: #181A29;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+.link_buttom {
+	background-color: #91A3E1;
+	float: right;
+	margin-left: 4px;
+}
+
+.button_right {}
+
+.navbar {
+	text-align: center;
+}
+
+.activeBtn {
+	background-color: #CBF1F5;
+	
+}
+
+.navbar-right {
+	margin-right: 15px;
+}
+
+.login {
+	display: inline-block;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.bxslider li {
+	max-height: 550px;
+	min-height: 300px;
+}
+
+@-webkit-keyframes flipOutX {
+	from {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+	}
+	30% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		opacity: 1;
+	}
+	to {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		opacity: 0;
+	}
+}
+
+@keyframes flipOutX {
+	from {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+	}
+	30% {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		opacity: 1;
+	}
+	to {
+		-webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		opacity: 0;
+	}
+}
+
+.flipOutX {
+	-webkit-animation-name: flipOutX;
+	animation-name: flipOutX;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+}

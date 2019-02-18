@@ -1,0 +1,90 @@
+/*-----------------------------登录注册页面的css------------------------------*/
+
+#loginCon {
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.login-con,
+.register-con {
+	padding-top: 15px;
+	background: .rgba(199, 255, 255, 0.6);
+}
+
+.submit-btn {
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-width: 0px;
+	border-color: rgb(69, 201, 224);
+	border-style: outset;
+	border-radius: 6px;
+	background-color: rgba(0, 0, 0, 0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#23f5e3), to(#15B7B9));
+	&:hover {
+		color: #fff !important;
+		background-color: #0deafa;
+		border: none;
+	}
+}
+
+.jumbotron {
+	margin-top: 50px;
+}
+
+.jumbotron-text {
+	color: #fff;
+}
+
+.banner-bg {
+	background: url('../../img/banbg.jpg') center no-repeat;
+}
+
+.banner-rain {
+	position: relative;
+	height: 450px;
+}
+
+.my-container {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.rain-con {
+	width: 100%;
+	height: 450px;
+}
+
+.banner-title {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	z-index: 9999999;
+}
+
+.banner-title h2 {
+	margin-bottom: 20px;
+}
+
+.banner-title p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*
+响应式布局，当屏幕宽度小于767px的时候
+*/
+
+@media screen and (max-width: 767px) {
+	#loginCon {
+		margin-top: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		.linear-gradient(#00304E,
+		#7BBEA5);
+	}
+}

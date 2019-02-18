@@ -1,0 +1,139 @@
+@charset 'utf-8';
+/*
+    * Busy 收集 整理
+ */
+/*雅虎（YUI 3）reset*/
+/*Normalize.css*/
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  border: none;
+}
+input,
+select,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+}
+/*----------------头部的样式更改-----------------*/
+* {
+  font-family: "Microsoft Yahei", "微软雅黑";
+  color: #666;
+}
+html {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.header-clear {
+  height: 50px;
+}
+.navbar-default {
+  background-color: rgba(255,255,255,0.4);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66ffffff',endColorstr='#66ffffff');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66ffffff',endColorstr='#66ffffff');
+}
+.sb-slider img {
+  min-width: 600px;
+  _width: 600px;
+  min-height: 300px;
+  _height: 300px;
+}
+.navbar {
+  border: none;
+}
+.wrapper {
+  padding: 0;
+}
+.sb-slider {
+  margin: 0 auto;
+}
+.login-btn,
+.register-btn {
+  font-size: 14px;
+}
+/*按钮样式的调整*/
+.btn {
+  background: #9DC6FF;
+  border: none;
+  color: #fff;
+}
+.glyphicon {
+  color: #fff;
+}
+.center-title {
+  text-align: center;
+  font-size: 2em;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  margin: 0;
+  background-color: #A6E3E9;
+}
+.foot-con {
+  background-color: #191828;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.send-con {
+  padding: 30px 0 10px;
+  background-color: #212330;
+}
+.my_btn {
+  text-align: center;
+  height: 54px;
+  background-color: #4D727E !important;
+  border-radius: 90px;
+  color: #F4F7ED !important;
+  font-size: 20px;
+  line-height: 36px;
+}
+.geduanceng {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: #8BDAE2;
+  color: #fff;
+}
+/*
+响应式布局，当屏幕宽度小于767px的时候
+*/
+@media screen and (max-width: 767px) {
+  .center-title {
+    text-align: center;
+    font-size: 1.4em;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    margin: 0;
+  }
+  .navbar-right {
+    margin: 7.5px -15px;
+  }
+  #loginCon {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

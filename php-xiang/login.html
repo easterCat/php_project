@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>登录页面</title>
+		<link rel="stylesheet" href="style/css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="style/css/main.css">
+		<link rel="stylesheet" href="style/css/global.css">
+		<style media="screen">
+			body {
+				overflow: hidden;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<!--巨大的介绍区域开始-->
+		<div class="banner-rain">
+			<div class="rain-con">
+				<img id="background" alt="background" src="" />
+			</div>
+			<div class="container banner-title">
+				<h2 class="jumbotron-text">欢迎登录页面！</h2>
+				<p class="jumbotron-text">请在下面的输入框中填写您的账号密码完成登录</p>
+				<p>
+					<a href="register.php" class="btn btn-primary btn-lg" role="button">
+						进入到注册页面</a>
+				</p>
+			</div>
+		</div>
+		<!--巨大的介绍区域结束-->
+		<!--登录注册区域开始-->
+		<div class="my-container" id="loginCon">
+			<div class="row clearfix">
+				<div class="col-md-3 column"></div>
+				<div class="col-md-6 column login-con">
+					<form class="form-horizontal" role="form" method="post" action="php/login.php">
+						<div class="form-group">
+							<label for="inputEmail3" class="col-sm-2 control-label">账号</label>
+							<div class="col-sm-10">
+								<input name="username" type="text" class="form-control" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+							<div class="col-sm-10">
+								<input name="password" type="password" class="form-control" />
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button name="submit" type="submit" class="btn btn-default center-block submit-btn">登录</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-3 column"></div>
+			</div>
+		</div>
+		<!--登录注册区域结束-->
+
+		<!--底部功能区域开始-->
+		<div class="row clearfix foot-con">
+			<div class="container">
+				<div class="col-md-4 column">
+					<p>本网站仅支持IE9及以上版本，火狐，谷歌等支持HTML5的浏览器 京ICP备16008739号</p>
+				</div>
+				<div class="col-md-4 column">
+					<button type="button" class="btn btn-lg btn-block" id="returnTop">返回顶部</button>
+				</div>
+				<div class="col-md-4 column button_right text-center" style="margin-top:5px;">
+					<button type="button" class="btn btn-default "><i class="glyphicon glyphicon-home"></i>
+                </button>
+					<button type="button" class="btn btn-default "><i class="glyphicon glyphicon-flag"></i>
+                </button>
+					<button type="button" class="btn btn-default "><i class="glyphicon glyphicon-bookmark"></i>
+                </button>
+					<button type="button" class="btn btn-default"><i class="glyphicon glyphicon-tint"></i>
+                </button>
+				</div>
+			</div>
+		</div>
+		<!--底部功能区域结束-->
+
+		<!--头部导航栏开始的位置-->
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button>
+							<a class="navbar-brand" href="index.php">Biwork</a>
+							<a class="navbar-brand login-btn" href="login.html">登录</a>
+							<a class="navbar-brand register-btn" href="register.php">注册</a>
+							<!-- <span class="login" style="margin-right:10px;">登录</span><span class="login">注册</span>-->
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="activeBtn">
+									<a href="index.php#1F">首页</a>
+								</li>
+								<li>
+									<a href="forums.php">留言板</a>
+								</li>
+								<li>
+									<a href="index.php#3F">最新项目</a>
+								</li>
+								<li>
+									<a href="index.php#4F">团队介绍</a>
+								</li>
+								<li>
+									<a href="index.php#5F">联系方式</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!--头部导航栏域结束-->
+	</body>
+	<script src="js/common/jquery.min.js"></script>
+	<script src="js/common/bootstrap.js"></script>
+	<script src="js/common/rainyday.min.js"></script>
+	<script type="text/javascript" src="seajs/sea.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+	<script src="js/ec-index.js"></script>
+	<script>
+		seajs.config({
+			base: "seajs/",
+			alias: {
+				"jquery": "../js/common/jquery.min.js",
+				"bootstrap": "../js/common/bootstrap.min.js",
+				"rainyday": "../js/common/rainyday.min.js",
+			}
+		});
+
+		seajs.use("../php-xiang/js/ec-index.js", function(modA) {
+			modA.init();
+		});
+
+		window.onload = run();
+
+		function run() {
+			var image = document.getElementById('background');
+			image.onload = function() {
+				var engine = new RainyDay({
+					image: this
+				});
+				engine.rain([
+					[3, 2, 2]
+				], 100);
+			};
+			image.crossOrigin = 'anonymous';
+			image.src = 'img/img06.jpg';
+		}
+	</script>
+</html>

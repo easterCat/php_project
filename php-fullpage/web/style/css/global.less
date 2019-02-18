@@ -1,0 +1,65 @@
+@charset 'utf-8';
+@import '../zless/css3';
+@import '../zless/reset';
+@import '../zless/z';
+.reset();
+/*第一屏的样式*/
+/*头部导航栏的样式*/
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    .rgba(255,255,255,0.5);
+    z-index: 999;
+    .show-left-nav {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        .border-radius(5px);
+        border: none;
+        background-color: #000000;
+        color: #fff;
+        margin-left: 5%;
+    }
+    .open-icon {
+        width: 35px;
+        height: 45px;
+        line-height: 45px;
+        .font-s16();
+        .font-wb();
+        .tc();
+    }
+}
+/*侧边栏的样式*/
+.side-bar {
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    padding-top: 5%;
+    background-color: #000000;
+    z-index: 499;
+}
+.user-pic {
+    width: 150px;
+    height: 150px !important;
+    .border-radius(90px);
+}
+/*第四屏的样式*/
+.sec03-ul {
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec03-li {
+    width: 20%;
+    height: 300px;
+    .fl();
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    .rgba(255,255,255,0.7);
+}
